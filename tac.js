@@ -28,4 +28,54 @@ onEvent('item.modification', event => {
     item.tier.tierOptions.attackDamageBonus = 5.5
     item.tier.tierOptions.speed = -2.6
   })
+  // Shovels
+  event.modify('minecraft:wooden_shovel', item => {
+    item.tier.tierOptions.attackDamageBonus = 3
+    item.tier.tierOptions.speed = -3
+  })
+  event.modify('minecraft:golden_shovel', item => {
+    item.tier.tierOptions.attackDamageBonus = 3.2
+    item.tier.tierOptions.speed = -3
+  })
+  event.modify('minecraft:stone_shovel', item => {
+    item.tier.tierOptions.attackDamageBonus = 3.5
+    item.tier.tierOptions.speed = -2.8
+  })
+  event.modify('minecraft:iron_shovel', item => {
+    item.tier.tierOptions.attackDamageBonus = 4
+    item.tier.tierOptions.speed = -2.8
+  })
+  event.modify('minecraft:diamond_shovel', item => {
+    item.tier.tierOptions.attackDamageBonus = 4.25
+    item.tier.tierOptions.speed = -2.8
+  })
+  event.modify('minecraft:netherite_shovel', item => {
+    item.tier.tierOptions.attackDamageBonus = 5
+    item.tier.tierOptions.speed = -2.8
+  })
+  // Hoes
+  event.modify('minecraft:wooden_hoe', item => {
+    item.tier.tierOptions.attackDamageBonus = 0
+    item.tier.tierOptions.speed = 0
+  })
+  event.modify('minecraft:golden_hoe', item => {
+    item.tier.tierOptions.attackDamageBonus = 0
+    item.tier.tierOptions.speed = 0.2
+  })
+  event.modify('minecraft:stone_hoe', item => {
+    item.tier.tierOptions.attackDamageBonus = 1
+    item.tier.tierOptions.speed = 0
+  })
+  event.modify('minecraft:iron_hoe', item => {
+    item.tier.tierOptions.attackDamageBonus = 1
+    item.tier.tierOptions.speed = 0.2
+  })
+  event.modify('minecraft:diamond_hoe', item => {
+    item.tier.tierOptions.attackDamageBonus = 1.4
+    item.tier.tierOptions.speed = 0.25
+  })
+  event.modify('minecraft:netherite_hoe', item => {
+    item.tier.tierOptions.attackDamageBonus = 1.4
+    item.tier.tierOptions.speed = 0.5
+  })
 })
