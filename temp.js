@@ -1,5 +1,5 @@
 // priority: 69
-// The original Tools Altered For Combatibility was written in CraftTweaker, however there was no way to package a script of ZenScript within a Forge mod, so I decided to move onto KubeJS instead. Assuming KubeJS is installed, this can be put into a datapack as well, but I'm doing it in a mod for personal convenience. Thanks for understanding! -Repeat
+// This is just a test file for me to test out different mechanics of KubeJS to try and make things work as intended before I release a big change. Thanks for understanding! -Repeat
 
 onEvent('item.modification', event => {
   //// Vanilla Tools
