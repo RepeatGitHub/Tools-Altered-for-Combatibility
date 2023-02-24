@@ -1,0 +1,1 @@
+​Be sure you've checked out [here](https://github.com/RepeatGitHub/Tools-Altered-for-Combatibility/wiki/Tutorial-Part-1) and [here](https://github.com/RepeatGitHub/Tools-Altered-for-Combatibility/wiki/Planned-Additions-and-Banned-Additions) before contributing!
